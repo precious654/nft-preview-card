@@ -9,7 +9,7 @@ main{
 }
 
 body{
-  background-color: RGB(0, 51, 65);
+  background-color: #151E3D;
   color: #8BACD9;
   font-family: 'Montserrat', sans-serif;
 }
@@ -34,9 +34,8 @@ h3{
 }
 
 .container{
-  background-color: RGB(0, 51, 65);
+  background-color: #1D2951;
   block-size: 560px;
-  border: 2px white solid;
   padding: 20px;
   border-radius: 15px;
 }
