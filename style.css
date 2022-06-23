@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  inline-size: 80%;
+  margin: auto;
+}
+
+body{
+  background-color: RGB(0, 51, 65);
+  color: #8BACD9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img{
+  max-inline-size: 100%;
+  height: auto;
+}
+
+h3{
+  margin-block-start: 0.7rem;
+  color: #FFFFFF;
+}
+
+.flex{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.container{
+  background-color: RGB(0, 51, 65);
+  block-size: 560px;
+  border: 2px white solid;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.text{
+  font-size: 16px;
+  margin-block-start: 1rem;
+  margin-block-end: 1.2rem;
+}
+
+.price{
+  color: #00FFF8;
+}
+
+.name{
+  color: #FFFFFF;
+}
+
+.image{
+  border-radius: 10px;
+}
+
+.image-two{
+  border: 1px solid #FFFFFF;
+  border-radius: 100%;
+}
+
+.footer{
+  border-top: 1px solid #8BACD9;
+  padding-block-start: 1.2rem;
+  margin-block-start: 40px;
+}
+
+@media (max-width: 768px) {
+
+  main{
+    inline-size: 90%;
+  }
+
+  .container{
+    inline-size: 310px;
+    margin-block-start: 80px;
+  }
+}
+
+@media (min-width: 769px) {
+
+  .container{
+    inline-size: 330px;
+    margin-block-start: 40px;
+    margin-inline-start: 420px;
+  }
+
+}
