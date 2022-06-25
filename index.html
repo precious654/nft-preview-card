@@ -12,7 +12,7 @@
     <main>
       <div class="container">
         <header>
-          <img src="./images/icon-view.svg" alt="icon" class="view" width="100px">
+          <img src="./images/icon-view.svg" alt="icon" class="view">
           <img src="./images/image-equilibrium.jpg" class="image" alt="an image">
         </header>
 
@@ -41,5 +41,19 @@
       </div>
     </main>
 
+    <script>
+       let image = document.querySelector(".image");
+
+       let view = document.querySelector(".view");
+
+        image.addEventListener( "mouseenter", function() {
+            view.style.opacity = "1";
+        });
+
+        image.addEventListener( "mouseleave", function() {
+          view.style.opacity = "0";
+        });
+
+    </script>
   </body>
 </html>
